@@ -1,0 +1,33 @@
+@section footer{
+
+    
+    <script src="~/jquery/jquery.js"></script>
+    <script>
+        //$(document).ready(function () {
+            function dddd() {
+                //$(".MySelect").click(function () {
+                //var deyer = document.getElementsByClassName("MySelect");
+                    var deyer = document.getElementById("MySelect");
+                    var x = deyer.options[deyer.selectedIndex].value;
+                    alert(x)
+                //});
+        };
+       
+                //$.ajax({
+                //    type: "POST",
+                //    url: "/Home/MyProducts",
+                //    data: { id: deyer },
+                    
+                //    success: function (gelen) {
+                //        alert(deyer);
+                //        $(".fillHere").empty();
+                //        $(".fillHere").html(gelen);
+                //    },
+                //    error: function () {
+                //        alert("xeta oldu");
+                //    }
+                //});
+          
+        //});
+    </script>
+}
